@@ -1,0 +1,85 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.seats{
+	
+	color:#FFFFFF;
+	margin:5px;
+	font-weight:bolder;
+	border-radius:5px;
+}
+
+.unbooked{
+	background-color:#00008B;
+}
+.booked{
+	background-color:#FF0000;
+}
+.booking{
+	background-color:#FFD700;
+}
+.unbk_txt{
+	color:#00008B;
+	font-weight:bolder;
+}
+.bkd_txt{
+	color:#FF0000;
+	font-weight:bolder;
+}
+.bkng_txt{
+	color:#FFD700;
+	font-weight:bolder;
+}
+
+.seats:hover{
+	cursor:pointer;
+}
+table, tr, td{
+	border:1px solid #000000;
+	border-collapse:collapse;
+}
+@media only screen and (max-width:576px){
+	.seats{
+		font-size:15px;
+		padding:7px;
+	}
+	table{
+		width:95%;
+		text-align:center;
+		margin:auto;
+	}
+}
+@media only screen and (min-width:577px){
+	.seats{
+		font-size:20px;
+		padding:5px;
+	}
+	table{
+		width:75%;
+		text-align:center;
+		margin:auto;
+	}
+}
+@media only screen and (min-width:992px){
+	.seats{
+		font-size:20px;
+		padding:10px;
+	}
+	table{
+		width:50%;
+		text-align:center;
+		margin:auto;
+	}
+}
+@media only screen and (min-width:1200px){
+	.seats{
+		font-size:20px;
+		padding:10px;
+	}
+	table{
+		width:50%;
+		text-align:center;
+		margin:auto;
+	}
+}
